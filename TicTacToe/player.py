@@ -909,7 +909,7 @@ class player :
         #from self.policy.set( 3, [4,0,3], 5 )
         self.policy.set( 5, [4,0,3,5,1], 7 )
         self.policy.set( 5, [4,0,3,5,2], 6 )
-        self.policy.set( 5, [4,0,3,5,5], 2 )
+        self.policy.set( 5, [4,0,3,5,6], 2 )
         self.policy.set( 5, [4,0,3,5,7], 1 )
         self.policy.set( 5, [4,0,3,5,8], 1 )
 
@@ -978,8 +978,8 @@ class player :
         self.policy.set( 5, [4,2,5,3,8], 0 )
 
         #from self.policy.set( 3, [4,2,6], [0,8] )
-        self.policy.set( 5, [4,2,6,0,1], 1 ) #end
-        self.policy.set( 5, [4,2,6,0,3], 7 )
+        self.policy.set( 5, [4,2,6,0,1], 7 )
+        self.policy.set( 5, [4,2,6,0,3], 1 ) #end
         self.policy.set( 5, [4,2,6,0,5], 1 ) #end
         self.policy.set( 5, [4,2,6,0,7], 1 ) #end
         self.policy.set( 5, [4,2,6,0,8], 1 ) #end
@@ -1064,11 +1064,11 @@ class player :
         self.policy.set( 5, [4,6,8,0,7], 3 ) #end
 
         #from self.policy.set( 3, [4,8,0], [2,6] )
-        self.policy.set( 5, [4,8,0,2,1], 6 ) #end
-        self.policy.set( 5, [4,8,0,2,3], 6 ) #end
-        self.policy.set( 5, [4,8,0,2,5], 6 ) #end
-        self.policy.set( 5, [4,8,0,2,6], 3 )
-        self.policy.set( 5, [4,8,0,2,7], 6 ) #end
+        self.policy.set( 5, [4,8,0,2,1], 5 ) #end
+        self.policy.set( 5, [4,8,0,2,3], 5 ) #end
+        self.policy.set( 5, [4,8,0,2,5], 3 )
+        self.policy.set( 5, [4,8,0,2,6], 5 ) #end
+        self.policy.set( 5, [4,8,0,2,7], 5 ) #end
 
         #start fill dups
         self.policy.set( 5, [4,8,0,6,1], 7 ) #end
@@ -1169,7 +1169,7 @@ class player :
         self.policy.set( 5, [5,4,3,6,7], 2 ) #end
         self.policy.set( 5, [5,4,3,6,8], 2 ) #end
 
-        self.policy.set( 5, [5,4,3,8,0], 2 )
+        self.policy.set( 5, [5,4,3,8,0], 6 )
         self.policy.set( 5, [5,4,3,8,1], 0 ) #end
         self.policy.set( 5, [5,4,3,8,2], 0 ) #end
         self.policy.set( 5, [5,4,3,8,6], 0 ) #end
@@ -1240,7 +1240,7 @@ class player :
         self.policy.set( 5, [6,4,2,5,8], 3 ) #end
 
         self.policy.set( 5, [6,4,2,7,0], 1 ) #end
-        self.policy.set( 5, [6,4,2,7,1], 2 )
+        self.policy.set( 5, [6,4,2,7,1], 0 )
         self.policy.set( 5, [6,4,2,7,2], 1 ) #end
         self.policy.set( 5, [6,4,2,7,3], 1 ) #end
         self.policy.set( 5, [6,4,2,7,5], 1 ) #end
@@ -1301,7 +1301,7 @@ class player :
         self.policy.set( 5, [7,4,1,6,5], 2 ) #end
         self.policy.set( 5, [7,4,1,6,8], 2 ) #end
 
-        self.policy.set( 5, [7,4,1,8,0], 6 )
+        self.policy.set( 5, [7,4,1,8,0], 3 )
         self.policy.set( 5, [7,4,1,8,2], 0 ) #end
         self.policy.set( 5, [7,4,1,8,3], 0 ) #end
         self.policy.set( 5, [7,4,1,8,5], 0 ) #end
@@ -1379,8 +1379,8 @@ class player :
         self.policy.set( 5, [8,4,0,5,6], 3 ) #end
         self.policy.set( 5, [8,4,0,5,7], 3 ) #end
 
-        self.policy.set( 5, [8,4,0,7,1], 1 ) #end
-        self.policy.set( 5, [8,4,0,7,2], 3 )
+        self.policy.set( 5, [8,4,0,7,1], 2 )
+        self.policy.set( 5, [8,4,0,7,2], 1 ) #end
         self.policy.set( 5, [8,4,0,7,3], 1 ) #end
         self.policy.set( 5, [8,4,0,7,5], 1 ) #end
         self.policy.set( 5, [8,4,0,7,6], 1 ) #end
@@ -1422,11 +1422,11 @@ class player :
         self.policy.set( 5, [8,4,6,7,5], 1 ) #end
 
         #from self.policy.set( 3, [8,4,7], 6 )
-        self.policy.set( 5, [8,4,7,6,0], 2 )
-        self.policy.set( 5, [8,4,7,6,1], 2 )
-        self.policy.set( 5, [8,4,7,6,2], 6 )
-        self.policy.set( 5, [8,4,7,6,3], 2 )
-        self.policy.set( 5, [8,4,7,6,5], 2 )
+        self.policy.set( 5, [8,4,7,6,0], 2 ) #end
+        self.policy.set( 5, [8,4,7,6,1], 2 ) #end
+        self.policy.set( 5, [8,4,7,6,2], 5 )
+        self.policy.set( 5, [8,4,7,6,3], 2 ) #end
+        self.policy.set( 5, [8,4,7,6,5], 2 ) #end
 
         #from self.policy.set( 4, [0,1,3,6], 4 )
         self.policy.set( 6, [0,1,3,6,4,2], [5,8] ) #end
@@ -1790,8 +1790,697 @@ class player :
         self.policy.set( 7, [1,4,8,3,5,2,6], 7 )
         self.policy.set( 7, [1,4,8,3,5,2,7], 6 )
 
+        #from self.policy.set( 5, [2,4,0,1,7], [3,5] )
+        self.policy.set( 7, [2,4,0,1,7,3,5], 8 )
+        self.policy.set( 7, [2,4,0,1,7,3,6], 5 )
+        self.policy.set( 7, [2,4,0,1,7,3,8], 5 )
 
-        # 10 times more with different x starts
+        # start fill dups
+        self.policy.set( 7, [2,4,0,1,7,5,3], 6 )
+        self.policy.set( 7, [2,4,0,1,7,5,6], 5 )
+        self.policy.set( 7, [2,4,0,1,7,5,8], 5 )
+        # end fill dups
+
+        #from self.policy.set( 5, [2,4,1,0,8], 5 )
+        self.policy.set( 7, [2,4,1,0,8,5,3], 6 )
+        self.policy.set( 7, [2,4,1,0,8,5,6], 3 )
+        self.policy.set( 7, [2,4,1,0,8,5,7], 3 )
+
+        #from self.policy.set( 5, [2,4,3,7,1], 0 )
+        self.policy.set( 7, [2,4,3,7,1,0,5], 8 )
+        self.policy.set( 7, [2,4,3,7,1,0,6], 8 )
+        self.policy.set( 7, [2,4,3,7,1,0,8], 6 )
+
+        #from self.policy.set( 5, [2,4,5,8,0], 1 )
+        self.policy.set( 7, [2,4,5,8,0,1,3], 7 )
+        self.policy.set( 7, [2,4,5,8,0,1,6], 7 )
+        self.policy.set( 7, [2,4,5,8,0,1,7], 3 )
+
+        #from self.policy.set( 5, [2,4,6,1,7], 8 )
+        self.policy.set( 7, [2,4,6,1,7,8,0], 3 )
+        self.policy.set( 7, [2,4,6,1,7,8,3], 0 )
+        self.policy.set( 7, [2,4,6,1,7,8,5], 0 )
+
+        #from self.policy.set( 5, [2,4,6,3,5], 8 )
+        self.policy.set( 7, [2,4,6,3,5,8,0], 5 )
+        self.policy.set( 7, [2,4,6,3,5,8,1], 0 )
+        self.policy.set( 7, [2,4,6,3,5,8,7], 0 )
+
+        #from self.policy.set( 5, [2,4,6,5,3], 0 )
+        self.policy.set( 7, [2,4,6,5,3,0,1], 8 )
+        self.policy.set( 7, [2,4,6,5,3,0,7], 8 )
+        self.policy.set( 7, [2,4,6,5,3,0,8], 7 )
+
+        #from self.policy.set( 5, [2,4,6,7,1], 0 )
+        self.policy.set( 7, [2,4,6,7,1,0,3], 8 )
+        self.policy.set( 7, [2,4,6,7,1,0,5], 8 )
+        self.policy.set( 7, [2,4,6,7,1,0,8], 5 )
+
+        #from self.policy.set( 5, [2,4,7,3,5], 8 )
+        self.policy.set( 7, [2,4,7,3,5,8,0], 1 )
+        self.policy.set( 7, [2,4,7,3,5,8,1], 0 )
+        self.policy.set( 7, [2,4,7,3,5,8,6], 0 )
+
+        #from self.policy.set( 5, [2,4,8,5,3], [1,7] )
+        self.policy.set( 7, [2,4,8,5,3,1,0], 7 )
+        self.policy.set( 7, [2,4,8,5,3,1,6], 7 )
+        self.policy.set( 7, [2,4,8,5,3,1,7], 6 )
+
+        # start fill dups
+        self.policy.set( 7, [2,4,8,5,3,7,0], 1 )
+        self.policy.set( 7, [2,4,8,5,3,7,1], 0 )
+        self.policy.set( 7, [2,4,8,5,3,7,6], 1 )
+        #end fill dups
+
+        #from self.policy.set( 5, [3,4,0,6,2], 1 )
+        self.policy.set( 7, [3,4,0,6,2,1,5], 7 )
+        self.policy.set( 7, [3,4,0,6,2,1,7], 5 )
+        self.policy.set( 7, [3,4,0,6,2,1,8], 7 )
+
+        #from self.policy.set( 5, [3,4,1,2,6], 0 )
+        self.policy.set( 7, [3,4,1,2,6,0,5], 8 )
+        self.policy.set( 7, [3,4,1,2,6,0,7], 8 )
+        self.policy.set( 7, [3,4,1,2,6,0,8], 7 )
+
+        #from self.policy.set( 5, [3,4,1,6,2], 0 )
+        self.policy.set( 7, [3,4,1,6,2,0,5], 8 )
+        self.policy.set( 7, [3,4,1,6,2,0,7], 8 )
+        self.policy.set( 7, [3,4,1,6,2,0,8], 5 )
+
+        #from self.policy.set( 5, [3,4,2,7,1], 0 )
+        self.policy.set( 7, [3,4,2,7,1,0,5], 8 )
+        self.policy.set( 7, [3,4,2,7,1,0,6], 8 )
+        self.policy.set( 7, [3,4,2,7,1,0,8], 5 )
+
+        #from self.policy.set( 5, [3,4,5,0,8], 2 )
+        self.policy.set( 7, [3,4,5,0,8,2,1], 6 )
+        self.policy.set( 7, [3,4,5,0,8,2,6], 1 )
+        self.policy.set( 7, [3,4,5,0,8,2,7], 1 )
+
+        #from self.policy.set( 5, [3,4,5,2,6], 0 )
+        self.policy.set( 7, [3,4,5,2,6,0,1], 8 )
+        self.policy.set( 7, [3,4,5,2,6,0,7], 1 )
+        self.policy.set( 7, [3,4,5,2,6,0,8], 1 )
+
+        #from self.policy.set( 5, [3,4,5,6,2], 8 )
+        self.policy.set( 7, [3,4,5,6,2,8,0], 7 )
+        self.policy.set( 7, [3,4,5,6,2,8,1], 7 )
+        self.policy.set( 7, [3,4,5,6,2,8,7], 0 )
+
+        #from self.policy.set( 5, [3,4,5,8,0], 6 )
+        self.policy.set( 7, [3,4,5,8,0,6,1], 7 )
+        self.policy.set( 7, [3,4,5,8,0,6,2], 7 )
+        self.policy.set( 7, [3,4,5,8,0,6,7], 2 )
+
+        #from self.policy.set( 5, [3,4,6,0,8], 7 )
+        self.policy.set( 7, [3,4,6,0,8,7,1], 2 )
+        self.policy.set( 7, [3,4,6,0,8,7,2], 1 )
+        self.policy.set( 7, [3,4,6,0,8,7,5], 1 )
+
+        #from self.policy.set( 5, [3,4,7,0,8], 6 )
+        self.policy.set( 7, [3,4,7,0,8,6,1], 2 )
+        self.policy.set( 7, [3,4,7,0,8,6,2], 5 )
+        self.policy.set( 7, [3,4,7,0,8,6,5], 2 )
+
+        #from self.policy.set( 5, [3,4,7,8,0], 6 )
+        self.policy.set( 7, [3,4,7,8,0,6,1], 2 )
+        self.policy.set( 7, [3,4,7,8,0,6,2], 1 )
+        self.policy.set( 7, [3,4,7,8,0,6,5], 2 )
+
+        #from self.policy.set( 5, [3,4,8,1,7], 6 )
+        self.policy.set( 7, [3,4,8,1,7,6,0], 2 )
+        self.policy.set( 7, [3,4,8,1,7,6,2], 5 )
+        self.policy.set( 7, [3,4,8,1,7,6,5], 2 )
+
+        #from self.policy.set( 5, [4,0,1,7,2], 6 )
+        self.policy.set( 7, [4,0,1,7,2,6,3], 8 )
+        self.policy.set( 7, [4,0,1,7,2,6,5], [3,8] )
+        self.policy.set( 7, [4,0,1,7,2,6,8], 3 )
+
+        #from self.policy.set( 5, [4,0,1,7,3], 5 )
+        self.policy.set( 7, [4,0,1,7,3,5,2], 6 )
+        self.policy.set( 7, [4,0,1,7,3,5,6], 2 )
+        self.policy.set( 7, [4,0,1,7,3,5,8], 2 )
+
+        #from self.policy.set( 5, [4,0,1,7,5], 3 )
+        self.policy.set( 7, [4,0,1,7,5,3,2], 6 )
+        self.policy.set( 7, [4,0,1,7,5,3,6], 2 )
+        self.policy.set( 7, [4,0,1,7,5,3,8], 6 )
+
+        #from self.policy.set( 5, [4,0,1,7,6], 2 )
+        self.policy.set( 7, [4,0,1,7,6,2,3], 5 )
+        self.policy.set( 7, [4,0,1,7,6,2,5], 3 )
+        self.policy.set( 7, [4,0,1,7,6,2,8], 3 )
+
+        #from self.policy.set( 5, [4,0,1,7,8], 3 )
+        self.policy.set( 7, [4,0,1,7,8,3,2], 6 )
+        self.policy.set( 7, [4,0,1,7,8,3,5], 6 )
+        self.policy.set( 7, [4,0,1,7,8,3,6], 2 )
+
+        #from self.policy.set( 5, [4,0,2,6,3], 5 )
+        self.policy.set( 7, [4,0,2,6,3,5,1], 7 )
+        self.policy.set( 7, [4,0,2,6,3,5,7], 1 )
+        self.policy.set( 7, [4,0,2,6,3,5,8], 1 )
+
+        #from self.policy.set( 5, [4,0,3,5,1], 7 )
+        self.policy.set( 7, [4,0,3,5,1,7,2], 6 )
+        self.policy.set( 7, [4,0,3,5,1,7,6], 2 )
+        self.policy.set( 7, [4,0,3,5,1,7,8], 2 )
+
+        #from self.policy.set( 5, [4,0,3,5,2], 6 )
+        self.policy.set( 7, [4,0,3,5,2,6,1], 7 )
+        self.policy.set( 7, [4,0,3,5,2,6,7], 1 )
+        self.policy.set( 7, [4,0,3,5,2,6,8], 1 )
+
+        #from self.policy.set( 5, [4,0,3,5,6], 2 )
+        self.policy.set( 7, [4,0,3,5,6,2,1], 8 )
+        self.policy.set( 7, [4,0,3,5,6,2,7], 1 )
+        self.policy.set( 7, [4,0,3,5,6,2,8], 1 )
+
+        #from self.policy.set( 5, [4,0,3,5,7], 1 )
+        self.policy.set( 7, [4,0,3,5,7,1,2], 6 )
+        self.policy.set( 7, [4,0,3,5,7,1,6], 2 )
+        self.policy.set( 7, [4,0,3,5,7,1,8], 2 )
+
+        #from self.policy.set( 5, [4,0,3,5,8], 1 )
+        self.policy.set( 7, [4,0,3,5,8,1,2], 6 )
+        self.policy.set( 7, [4,0,3,5,8,1,6], 2 )
+        self.policy.set( 7, [4,0,3,5,8,1,7], 2 )
+
+        #from self.policy.set( 5, [4,0,5,3,6], 2 )
+        self.policy.set( 7, [4,0,5,3,6,2,1], 7 )
+        self.policy.set( 7, [4,0,5,3,6,2,7], 1 )
+        self.policy.set( 7, [4,0,5,3,6,2,8], 1 )
+
+        #from self.policy.set( 5, [4,0,6,2,1], 7 )
+        self.policy.set( 7, [4,0,6,2,1,7,3], 5 )
+        self.policy.set( 7, [4,0,6,2,1,7,5], 3 )
+        self.policy.set( 7, [4,0,6,2,1,7,8], 3 )
+
+        #from self.policy.set( 5, [4,0,7,1,2], 6 )
+        self.policy.set( 7, [4,0,7,1,2,6,3], 5 )
+        self.policy.set( 7, [4,0,7,1,2,6,5], 3 )
+        self.policy.set( 7, [4,0,7,1,2,6,8], 3 )
+
+        #from self.policy.set( 5, [4,0,8,2,1], 7 )
+        self.policy.set( 7, [4,0,8,2,1,7,3], 5 )
+        self.policy.set( 7, [4,0,8,2,1,7,5], 3 )
+        self.policy.set( 7, [4,0,8,2,1,7,6], 3 )
+
+        #from self.policy.set( 5, [4,0,8,6,3], 5 )
+        self.policy.set( 7, [4,0,8,6,3,5,1], 7 )
+        self.policy.set( 7, [4,0,8,6,3,5,2], 1 )
+        self.policy.set( 7, [4,0,8,6,3,5,7], 1 )
+
+        #from self.policy.set( 5, [4,2,0,8,5], 3 )
+        self.policy.set( 7, [4,2,0,8,5,3,1], 7 )
+        self.policy.set( 7, [4,2,0,8,5,3,6], 1 )
+        self.policy.set( 7, [4,2,0,8,5,3,7], 1 )
+
+        #from self.policy.set( 5, [4,2,1,7,0], 8 )
+        self.policy.set( 7, [4,2,1,7,0,8,3], 5 )
+        self.policy.set( 7, [4,2,1,7,0,8,5], 6 )
+        self.policy.set( 7, [4,2,1,7,0,8,6], 5 )
+
+        #from self.policy.set( 5, [4,2,1,7,3], 5 )
+        self.policy.set( 7, [4,2,1,7,3,5,0], 8 )
+        self.policy.set( 7, [4,2,1,7,3,5,6], 8 )
+        self.policy.set( 7, [4,2,1,7,3,5,8], 0 )
+
+        #from self.policy.set( 5, [4,2,1,7,5], 3 )
+        self.policy.set( 7, [4,2,1,7,5,3,0], 8 )
+        self.policy.set( 7, [4,2,1,7,5,3,6], 8 )
+        self.policy.set( 7, [4,2,1,7,5,3,8], 0 )
+
+        #from self.policy.set( 5, [4,2,1,7,6], 5 )
+        self.policy.set( 7, [4,2,1,7,6,5,0], 8 )
+        self.policy.set( 7, [4,2,1,7,6,5,3], 8 )
+        self.policy.set( 7, [4,2,1,7,6,5,8], 0 )
+
+        #from self.policy.set( 5, [4,2,1,7,8], 0 )
+        self.policy.set( 7, [4,2,1,7,8,0,3], 5 )
+        self.policy.set( 7, [4,2,1,7,8,0,5], 3 )
+        self.policy.set( 7, [4,2,1,7,8,0,6], 5 )
+
+        #from self.policy.set( 5, [4,2,3,5,8], 0 )
+        self.policy.set( 7, [4,2,3,5,8,0,1], 7 )
+        self.policy.set( 7, [4,2,3,5,8,0,6], 1 )
+        self.policy.set( 7, [4,2,3,5,8,0,7], 1 )
+
+        #from self.policy.set( 5, [4,2,5,3,0], 8 )
+        self.policy.set( 7, [4,2,5,3,0,8,1], 7 )
+        self.policy.set( 7, [4,2,5,3,0,8,6], 1 )
+        self.policy.set( 7, [4,2,5,3,0,8,7], 1 )
+
+        #from self.policy.set( 5, [4,2,5,3,1], 7 )
+        self.policy.set( 7, [4,2,5,3,1,7,0], 8 )
+        self.policy.set( 7, [4,2,5,3,1,7,6], 8 )
+        self.policy.set( 7, [4,2,5,3,1,7,8], 0 )
+
+        #from self.policy.set( 5, [4,2,5,3,6], 1 )
+        self.policy.set( 7, [4,2,5,3,6,1,0], 8 )
+        self.policy.set( 7, [4,2,5,3,6,1,7], 0 )
+        self.policy.set( 7, [4,2,5,3,6,1,8], 0 )
+
+        #from self.policy.set( 5, [4,2,5,3,7], 1 )
+        self.policy.set( 7, [4,2,5,3,7,1,0], 8 )
+        self.policy.set( 7, [4,2,5,3,7,1,6], 0 )
+        self.policy.set( 7, [4,2,5,3,7,1,8], 0 )
+
+        #from self.policy.set( 5, [4,2,5,3,8], 0 )
+        self.policy.set( 7, [4,2,5,3,8,0,1], 6 )
+        self.policy.set( 7, [4,2,5,3,8,0,6], 1 )
+        self.policy.set( 7, [4,2,5,3,8,0,7], 1 )
+
+        #from self.policy.set( 5, [4,2,6,0,1], 7 )
+        self.policy.set( 7, [4,2,6,0,1,7,3], 5 )
+        self.policy.set( 7, [4,2,6,0,1,7,5], 1 )
+        self.policy.set( 7, [4,2,6,0,1,7,8], 5 )
+
+        #from self.policy.set( 5, [4,2,6,8,5], 3 )
+        self.policy.set( 7, [4,2,6,8,5,3,0], 1 )
+        self.policy.set( 7, [4,2,6,8,5,3,1], 7 )
+        self.policy.set( 7, [4,2,6,8,5,3,7], 1 )
+
+        #from self.policy.set( 5, [4,2,7,1,0], 8 )
+        self.policy.set( 7, [4,2,7,1,0,8,3], 5 )
+        self.policy.set( 7, [4,2,7,1,0,8,5], 3 )
+        self.policy.set( 7, [4,2,7,1,0,8,6], 5 )
+
+        #from self.policy.set( 5, [4,2,8,0,1], 7 )
+        self.policy.set( 7, [4,2,8,0,1,7,3], 5 )
+        self.policy.set( 7, [4,2,8,0,1,7,5], 3 )
+        self.policy.set( 7, [4,2,8,0,1,7,6], 5 )
+
+        #from self.policy.set( 5, [4,6,0,8,7], 1 )
+        self.policy.set( 7, [4,6,0,8,7,1,2], 3 )
+        self.policy.set( 7, [4,6,0,8,7,1,3], 5 )
+        self.policy.set( 7, [4,6,0,8,7,1,5], 3 )
+
+        #from self.policy.set( 5, [4,6,1,7,8], 0 )
+        self.policy.set( 7, [4,6,1,7,8,0,2], 3 )
+        self.policy.set( 7, [4,6,1,7,8,0,3], 5 )
+        self.policy.set( 7, [4,6,1,7,8,0,5], 3 )
+
+        #from self.policy.set( 5, [4,6,2,0,3], 5 )
+        self.policy.set( 7, [4,6,2,0,3,5,1], 7 )
+        self.policy.set( 7, [4,6,2,0,3,5,7], 1 )
+        self.policy.set( 7, [4,6,2,0,3,5,8], 7 )
+
+        #from self.policy.set( 5, [4,6,2,8,7], 1 )
+        self.policy.set( 7, [4,6,2,8,7,1,0], 3 )
+        self.policy.set( 7, [4,6,2,8,7,1,3], 5 )
+        self.policy.set( 7, [4,6,2,8,7,1,5], 3 )
+
+        #from self.policy.set( 5, [4,6,3,5,0], 8 )
+        self.policy.set( 7, [4,6,3,5,0,8,1], [7,2] )
+        self.policy.set( 7, [4,6,3,5,0,8,2], 7 )
+        self.policy.set( 7, [4,6,3,5,0,8,7], 2 )
+
+        #from self.policy.set( 5, [4,6,3,5,1], 7 )
+        self.policy.set( 7, [4,6,3,5,1,7,0], 8 )
+        self.policy.set( 7, [4,6,3,5,1,7,2], 8 )
+        self.policy.set( 7, [4,6,3,5,1,7,8], 0 )
+
+        #from self.policy.set( 5, [4,6,3,5,2], 7 )
+        self.policy.set( 7, [4,6,3,5,2,7,0], 8 )
+        self.policy.set( 7, [4,6,3,5,2,7,1], 8 )
+        self.policy.set( 7, [4,6,3,5,2,7,8], 0 )
+
+        #from self.policy.set( 5, [4,6,3,5,7], 1 )
+        self.policy.set( 7, [4,6,3,5,7,1,0], 8 )
+        self.policy.set( 7, [4,6,3,5,7,1,2], 0 )
+        self.policy.set( 7, [4,6,3,5,7,1,8], 0 )
+
+        #from self.policy.set( 5, [4,6,3,5,8], 0 )
+        self.policy.set( 7, [4,6,3,5,8,0,1], 7 )
+        self.policy.set( 7, [4,6,3,5,8,0,2], 7 )
+        self.policy.set( 7, [4,6,3,5,8,0,7], 1 )
+
+        #from self.policy.set( 5, [4,6,5,3,0], 8 )
+        self.policy.set( 7, [4,6,5,3,0,8,1], 7 )
+        self.policy.set( 7, [4,6,5,3,0,8,2], 7 )
+        self.policy.set( 7, [4,6,5,3,0,8,7], 1 )
+
+        #from self.policy.set( 5, [4,6,7,1,0], 8 )
+        self.policy.set( 7, [4,6,7,1,0,8,2], 3 )
+        self.policy.set( 7, [4,6,7,1,0,8,3], 5 )
+        self.policy.set( 7, [4,6,7,1,0,8,5], 3 )
+
+        #from self.policy.set( 5, [4,6,7,1,2], 3 )
+        self.policy.set( 7, [4,6,7,1,2,3,0], 8 )
+        self.policy.set( 7, [4,6,7,1,2,3,5], 0 )
+        self.policy.set( 7, [4,6,7,1,2,3,8], 0 )
+
+        #from self.policy.set( 5, [4,6,7,1,3], 5 )
+        self.policy.set( 7, [4,6,7,1,3,5,0], 8 )
+        self.policy.set( 7, [4,6,7,1,3,5,2], 0 )
+        self.policy.set( 7, [4,6,7,1,3,5,8], 0 )
+
+        #from self.policy.set( 5, [4,6,7,1,5], 3 )
+        self.policy.set( 7, [4,6,7,1,5,3,0], 8 )
+        self.policy.set( 7, [4,6,7,1,5,3,2], 0 )
+        self.policy.set( 7, [4,6,7,1,5,3,8], 0 )
+
+        #from self.policy.set( 5, [4,6,7,1,8], 0 )
+        self.policy.set( 7, [4,6,7,1,8,0,2], 3 )
+        self.policy.set( 7, [4,6,7,1,8,0,3], 2 )
+        self.policy.set( 7, [4,6,7,1,8,0,5], 3 )
+
+        #from self.policy.set( 5, [4,6,8,0,3], 5 )
+        self.policy.set( 7, [4,6,8,0,3,5,1], 7 )
+        self.policy.set( 7, [4,6,8,0,3,5,2], 7 )
+        self.policy.set( 7, [4,6,8,0,3,5,7], 1 )
+
+        #from self.policy.set( 5, [4,8,0,2,5], 3 )
+        self.policy.set( 7, [4,8,0,2,5,3,1], 7 )
+        self.policy.set( 7, [4,8,0,2,5,3,6], 7 )
+        self.policy.set( 7, [4,8,0,2,5,3,7], 1 )
+
+        #from self.policy.set( 5, [4,8,0,6,7], 1 )
+        self.policy.set( 7, [4,8,0,6,7,1,2], 5 )
+        self.policy.set( 7, [4,8,0,6,7,1,3], 5 )
+        self.policy.set( 7, [4,8,0,6,7,1,5], 3 )
+
+        #from self.policy.set( 5, [4,8,1,7,6], 2 )
+        self.policy.set( 7, [4,8,1,7,6,2,0], 5 )
+        self.policy.set( 7, [4,8,1,7,6,2,3], 5 )
+        self.policy.set( 7, [4,8,1,7,6,2,5], 3 )
+
+        #from self.policy.set( 5, [4,8,2,6,7], 1 )
+        self.policy.set( 7, [4,8,2,6,7,1,0], 5 )
+        self.policy.set( 7, [4,8,2,6,7,1,3], 5 )
+        self.policy.set( 7, [4,8,2,6,7,1,5], 3 )
+
+        #from self.policy.set( 5, [4,8,3,5,2], 6 )
+        self.policy.set( 7, [4,8,3,5,2,6,0], 7 )
+        self.policy.set( 7, [4,8,3,5,2,6,1], 7 )
+        self.policy.set( 7, [4,8,3,5,2,6,7], 1 )
+
+        #from self.policy.set( 5, [4,8,5,3,0], 7 )
+        self.policy.set( 7, [4,8,5,3,0,7,1], 6 )
+        self.policy.set( 7, [4,8,5,3,0,7,2], 6 )
+        self.policy.set( 7, [4,8,5,3,0,7,6], 2 )
+
+        #from self.policy.set( 5, [4,8,5,3,1], 7 )
+        self.policy.set( 7, [4,8,5,3,1,7,0], 6 )
+        self.policy.set( 7, [4,8,5,3,1,7,2], 6 )
+        self.policy.set( 7, [4,8,5,3,1,7,6], 2 )
+
+        #from self.policy.set( 5, [4,8,5,3,2], 6 )
+        self.policy.set( 7, [4,8,5,3,2,6,0], 7 )
+        self.policy.set( 7, [4,8,5,3,2,6,1], 7 )
+        self.policy.set( 7, [4,8,5,3,2,6,7], 0 )
+
+        #from self.policy.set( 5, [4,8,5,3,6], 2 )
+        self.policy.set( 7, [4,8,5,3,6,2,0], 7 )
+        self.policy.set( 7, [4,8,5,3,6,2,1], 7 )
+        self.policy.set( 7, [4,8,5,3,6,2,7], 1 )
+
+        #from self.policy.set( 5, [4,8,5,3,7], 1 )
+        self.policy.set( 7, [4,8,5,3,7,1,0], 6 )
+        self.policy.set( 7, [4,8,5,3,7,1,2], 6 )
+        self.policy.set( 7, [4,8,5,3,7,1,6], 2 )
+
+        #from self.policy.set( 5, [4,8,6,2,5], 3 )
+        self.policy.set( 7, [4,8,6,2,5,3,0], 7 )
+        self.policy.set( 7, [4,8,6,2,5,3,1], 7 )
+        self.policy.set( 7, [4,8,6,2,5,3,7], 1 )
+
+        #from self.policy.set( 5, [4,8,7,1,0], 5 )
+        self.policy.set( 7, [4,8,7,1,0,5,2], 6 )
+        self.policy.set( 7, [4,8,7,1,0,5,3], 2 )
+        self.policy.set( 7, [4,8,7,1,0,5,6], 2 )
+
+        #from self.policy.set( 5, [4,8,7,1,2], 6 )
+        self.policy.set( 7, [4,8,7,1,2,6,0], 5 )
+        self.policy.set( 7, [4,8,7,1,2,6,3], 5 )
+        self.policy.set( 7, [4,8,7,1,2,6,5], 3 )
+
+        #from self.policy.set( 5, [4,8,7,1,3], 5 )
+        self.policy.set( 7, [4,8,7,1,3,5,0], 2 )
+        self.policy.set( 7, [4,8,7,1,3,5,2], 6 )
+        self.policy.set( 7, [4,8,7,1,3,5,6], 2 )
+
+        #from self.policy.set( 5, [4,8,7,1,5], 3 )
+        self.policy.set( 7, [4,8,7,1,5,3,0], 6 )
+        self.policy.set( 7, [4,8,7,1,5,3,2], 6 )
+        self.policy.set( 7, [4,8,7,1,5,3,6], 2 )
+
+        #from self.policy.set( 5, [4,8,7,1,6], 2 )
+        self.policy.set( 7, [4,8,7,1,6,2,0], 5 )
+        self.policy.set( 7, [4,8,7,1,6,2,3], 5 )
+        self.policy.set( 7, [4,8,7,1,6,2,5], 0 )
+
+        #from self.policy.set( 5, [5,4,0,7,1], 2 )
+        self.policy.set( 7, [5,4,0,7,1,2,3], 6 )
+        self.policy.set( 7, [5,4,0,7,1,2,6], 3 )
+        self.policy.set( 7, [5,4,0,7,1,2,8], 6 )
+
+        #from self.policy.set( 5, [5,4,1,0,8], 2 )
+        self.policy.set( 7, [5,4,1,0,8,2,3], 6 )
+        self.policy.set( 7, [5,4,1,0,8,2,6], 7 )
+        self.policy.set( 7, [5,4,1,0,8,2,7], 6 )
+
+        #from self.policy.set( 5, [5,4,1,8,0], 2 )
+        self.policy.set( 7, [5,4,1,8,0,2,3], 6 )
+        self.policy.set( 7, [5,4,1,8,0,2,6], 3 )
+        self.policy.set( 7, [5,4,1,8,0,2,7], 6 )
+
+        #from self.policy.set( 5, [5,4,2,8,0], 1 )
+        self.policy.set( 7, [5,4,2,8,0,1,3], 7 )
+        self.policy.set( 7, [5,4,2,8,0,1,6], 7 )
+        self.policy.set( 7, [5,4,2,8,0,1,7], 3 )
+
+        #from self.policy.set( 5, [5,4,3,0,8], 2 )
+        self.policy.set( 7, [5,4,3,0,8,2,1], 6 )
+        self.policy.set( 7, [5,4,3,0,8,2,6], 1 )
+        self.policy.set( 7, [5,4,3,0,8,2,7], 1 )
+
+        #from self.policy.set( 5, [5,4,3,2,6], 0 )
+        self.policy.set( 7, [5,4,3,2,6,0,1], 8 )
+        self.policy.set( 7, [5,4,3,2,6,0,7], 1 )
+        self.policy.set( 7, [5,4,3,2,6,0,8], 1 )
+
+        #from self.policy.set( 5, [5,4,3,6,2], 8 )
+        self.policy.set( 7, [5,4,3,6,2,8,0], 7 )
+        self.policy.set( 7, [5,4,3,6,2,8,1], 7 )
+        self.policy.set( 7, [5,4,3,6,2,8,7], 0 )
+
+        #from self.policy.set( 5, [5,4,3,8,0], 6 )
+        self.policy.set( 7, [5,4,3,8,0,6,1], 7 )
+        self.policy.set( 7, [5,4,3,8,0,6,2], 7 )
+        self.policy.set( 7, [5,4,3,8,0,6,7], 2 )
+
+        #from self.policy.set( 5, [5,4,6,1,7], 8 )
+        self.policy.set( 7, [5,4,6,1,7,8,0], 3 )
+        self.policy.set( 7, [5,4,6,1,7,8,2], 0 )
+        self.policy.set( 7, [5,4,6,1,7,8,3], 0 )
+
+        #from self.policy.set( 5, [5,4,7,2,6], 8 )
+        self.policy.set( 7, [5,4,7,2,6,8,0], 3 )
+        self.policy.set( 7, [5,4,7,2,6,8,1], 0 )
+        self.policy.set( 7, [5,4,7,2,6,8,3], 0 )
+
+        #from self.policy.set( 5, [5,4,7,6,2], 8 )
+        self.policy.set( 7, [5,4,7,6,2,8,0], 1 )
+        self.policy.set( 7, [5,4,7,6,2,8,1], 0 )
+        self.policy.set( 7, [5,4,7,6,2,8,3], 0 )
+
+        #from self.policy.set( 5, [5,4,8,2,6], 7 )
+        self.policy.set( 7, [5,4,8,2,6,7,0], 1 )
+        self.policy.set( 7, [5,4,8,2,6,7,1], 0 )
+        self.policy.set( 7, [5,4,8,2,6,7,3], 1 )
+
+        #from self.policy.set( 5, [6,4,0,3,5], [1,7] )
+        self.policy.set( 7, [6,4,0,3,5,1,2], 7 )
+        self.policy.set( 7, [6,4,0,3,5,1,7], 8 )
+        self.policy.set( 7, [6,4,0,3,5,1,8], 7 )
+
+        #start fill dups
+        self.policy.set( 7, [6,4,0,3,5,7,1], 2 )
+        self.policy.set( 7, [6,4,0,3,5,7,2], 1 )
+        self.policy.set( 7, [6,4,0,3,5,7,8], 1 )
+        #end fill dups
+
+        #from self.policy.set( 5, [6,4,1,5,3], 0 )
+        self.policy.set( 7, [6,4,1,5,3,0,2], 8 )
+        self.policy.set( 7, [6,4,1,5,3,0,7], 8 )
+        self.policy.set( 7, [6,4,1,5,3,0,8], 7 )
+
+        #from self.policy.set( 5, [6,4,2,1,7], 8 )
+        self.policy.set( 7, [6,4,2,1,7,8,0], 3 )
+        self.policy.set( 7, [6,4,2,1,7,8,3], 0 )
+        self.policy.set( 7, [6,4,2,1,7,8,5], 0 )
+
+        #from self.policy.set( 5, [6,4,2,3,5], 8 )
+        self.policy.set( 7, [6,4,2,3,5,8,0], 1 )
+        self.policy.set( 7, [6,4,2,3,5,8,1], 0 )
+        self.policy.set( 7, [6,4,2,3,5,8,7], 0 )
+
+        #from self.policy.set( 5, [6,4,2,5,3], 0 )
+        self.policy.set( 7, [6,4,2,5,3,0,1], 8 )
+        self.policy.set( 7, [6,4,2,5,3,0,7], 8 )
+        self.policy.set( 7, [6,4,2,5,3,0,8], 7 )
+
+        #from self.policy.set( 5, [6,4,2,7,1], 0 )
+        self.policy.set( 7, [6,4,2,7,1,0,3], 8 )
+        self.policy.set( 7, [6,4,2,7,1,0,5], 8 )
+        self.policy.set( 7, [6,4,2,7,1,0,8], 5 )
+
+        #from self.policy.set( 5, [6,4,3,0,8], 7 )
+        self.policy.set( 7, [6,4,3,0,8,7,1], 2 )
+        self.policy.set( 7, [6,4,3,0,8,7,2], 1 )
+        self.policy.set( 7, [6,4,3,0,8,7,5], 1 )
+
+        #from self.policy.set( 5, [6,4,5,1,7], 8 )
+        self.policy.set( 7, [6,4,5,1,7,8,0], 3 )
+        self.policy.set( 7, [6,4,5,1,7,8,2], 0 )
+        self.policy.set( 7, [6,4,5,1,7,8,3], 0 )
+
+        #from self.policy.set( 5, [6,4,7,8,0], 3 )
+        self.policy.set( 7, [6,4,7,8,0,3,1], 5 )
+        self.policy.set( 7, [6,4,7,8,0,3,2], 5 )
+        self.policy.set( 7, [6,4,7,8,0,3,5], 1 )
+
+        #from self.policy.set( 5, [6,4,8,7,1], [3,5] )
+        self.policy.set( 7, [6,4,8,7,1,3,0], 5 )
+        self.policy.set( 7, [6,4,8,7,1,3,2], 5 )
+        self.policy.set( 7, [6,4,8,7,1,3,5], 2 )
+
+        # start fill dups
+        self.policy.set( 7, [6,4,8,7,1,5,0], 3 )
+        self.policy.set( 7, [6,4,8,7,1,5,2], 3 )
+        self.policy.set( 7, [6,4,8,7,1,5,3], 0 )
+        #end fill dups
+
+        #from self.policy.set( 5, [7,4,0,5,3], 6 )
+        self.policy.set( 7, [7,4,0,5,3,6,1], 3 )
+        self.policy.set( 7, [7,4,0,5,3,6,2], 2 )
+        self.policy.set( 7, [7,4,0,5,3,6,8], 3 )
+
+        #from self.policy.set( 5, [7,4,1,0,8], 6 )
+        self.policy.set( 7, [7,4,1,0,8,6,2], 3 )
+        self.policy.set( 7, [7,4,1,0,8,6,3], 2 )
+        self.policy.set( 7, [7,4,1,0,8,6,5], 2 )
+
+        #from self.policy.set( 5, [7,4,1,2,6], 8 )
+        self.policy.set( 7, [7,4,1,2,6,8,0], 5 )
+        self.policy.set( 7, [7,4,1,2,6,8,3], 0 )
+        self.policy.set( 7, [7,4,1,2,6,8,5], 0 )
+
+        #from self.policy.set( 5, [7,4,1,6,2], 0 )
+        self.policy.set( 7, [7,4,1,6,2,0,3], 8 )
+        self.policy.set( 7, [7,4,1,6,2,0,5], 8 )
+        self.policy.set( 7, [7,4,1,6,2,0,8], 3 )
+
+        #from self.policy.set( 5, [7,4,1,8,0], 3 )
+        self.policy.set( 7, [7,4,1,8,0,3,2], 6 )
+        self.policy.set( 7, [7,4,1,8,0,3,5], 6 )
+        self.policy.set( 7, [7,4,1,8,0,3,6], 5 )
+
+        #from self.policy.set( 5, [7,4,2,3,5], 8 )
+        self.policy.set( 7, [7,4,2,3,5,8,0], 1 )
+        self.policy.set( 7, [7,4,2,3,5,8,1], 0 )
+        self.policy.set( 7, [7,4,2,3,5,8,6], 0 )
+
+        #from self.policy.set( 5, [7,4,3,0,8], 6 )
+        self.policy.set( 7, [7,4,3,0,8,6,1], 2 )
+        self.policy.set( 7, [7,4,3,0,8,6,2], 5 )
+        self.policy.set( 7, [7,4,3,0,8,6,5], 2 )
+
+        #from self.policy.set( 5, [7,4,3,8,0], 6 )
+        self.policy.set( 7, [7,4,3,8,0,6,1], 2 )
+        self.policy.set( 7, [7,4,3,8,0,6,2], 1 )
+        self.policy.set( 7, [7,4,3,8,0,6,5], 2 )
+
+        #from self.policy.set( 5, [7,4,5,2,6], 8 )
+        self.policy.set( 7, [7,4,5,2,6,8,0], 3 )
+        self.policy.set( 7, [7,4,5,2,6,8,1], 0 )
+        self.policy.set( 7, [7,4,5,2,6,8,3], 0 )
+
+        #from self.policy.set( 5, [7,4,5,6,2], 8 )
+        self.policy.set( 7, [7,4,5,6,2,8,0], 1 )
+        self.policy.set( 7, [7,4,5,6,2,8,1], 0 )
+        self.policy.set( 7, [7,4,5,6,2,8,3], 0 )
+
+        #from self.policy.set( 5, [7,4,6,8,0], 3 )
+        self.policy.set( 7, [7,4,6,8,0,3,1], 5 )
+        self.policy.set( 7, [7,4,6,8,0,3,2], 5 )
+        self.policy.set( 7, [7,4,6,8,0,3,5], 1 )
+
+        #from self.policy.set( 5, [7,4,8,6,2], 5 )
+        self.policy.set( 7, [7,4,8,6,2,5,0], 3 )
+        self.policy.set( 7, [7,4,8,6,2,5,1], 3 )
+        self.policy.set( 7, [7,4,8,6,2,5,3], 0 )
+
+        #from self.policy.set( 5, [8,4,0,1,7], 6 )
+        self.policy.set( 7, [8,4,0,1,7,6,2], 5 )
+        self.policy.set( 7, [8,4,0,1,7,6,3], 2 )
+        self.policy.set( 7, [8,4,0,1,7,6,5], 2 )
+
+        #from self.policy.set( 5, [8,4,0,3,5], 2 )
+        self.policy.set( 7, [8,4,0,3,5,2,1], 6 )
+        self.policy.set( 7, [8,4,0,3,5,2,6], 7 )
+        self.policy.set( 7, [8,4,0,3,5,2,7], 6 )
+
+        #from self.policy.set( 5, [8,4,0,5,3], 6 )
+        self.policy.set( 7, [8,4,0,5,3,6,1], 2 )
+        self.policy.set( 7, [8,4,0,5,3,6,2], 1 )
+        self.policy.set( 7, [8,4,0,5,3,6,7], 2 )
+
+        #from self.policy.set( 5, [8,4,0,7,1], 2 )
+        self.policy.set( 7, [8,4,0,7,1,2,3], 6 )
+        self.policy.set( 7, [8,4,0,7,1,2,5], 6 )
+        self.policy.set( 7, [8,4,0,7,1,2,6], 3 )
+
+        #from self.policy.set( 5, [8,4,1,3,5], 2 )
+        self.policy.set( 7, [8,4,1,3,5,2,0], 6 )
+        self.policy.set( 7, [8,4,1,3,5,2,6], 7 )
+        self.policy.set( 7, [8,4,1,3,5,2,7], 6 )
+
+        #from self.policy.set( 5, [8,4,2,5,3], [1,7] )
+        self.policy.set( 7, [8,4,2,5,3,1,0], 7 )
+        self.policy.set( 7, [8,4,2,5,3,1,6], 7 )
+        self.policy.set( 7, [8,4,2,5,3,1,7], 6 )
+
+        # start fill dups
+        self.policy.set( 7, [8,4,2,5,3,7,0], 1 )
+        self.policy.set( 7, [8,4,2,5,3,7,1], 0 )
+        self.policy.set( 7, [8,4,2,5,3,7,6], 1 )
+        # end fill dups
+
+        #from self.policy.set( 5, [8,4,3,1,7], 6 )
+        self.policy.set( 7, [8,4,3,1,7,6,0], 2 )
+        self.policy.set( 7, [8,4,3,1,7,6,2], 5 )
+        self.policy.set( 7, [8,4,3,1,7,6,5], 2 )
+
+        #from self.policy.set( 5, [8,4,5,2,6], 7 )
+        self.policy.set( 7, [8,4,5,2,6,7,0], 1 )
+        self.policy.set( 7, [8,4,5,2,6,7,1], 0 )
+        self.policy.set( 7, [8,4,5,2,6,7,3], 1 )
+
+        #from self.policy.set( 5, [8,4,6,7,1], [3,5] )
+        self.policy.set( 7, [8,4,6,7,1,3,0], 5 )
+        self.policy.set( 7, [8,4,6,7,1,3,2], 5 )
+        self.policy.set( 7, [8,4,6,7,1,3,5], 2 )
+
+        # start fill dups
+        self.policy.set( 7, [8,4,6,7,1,5,0], 3 )
+        self.policy.set( 7, [8,4,6,7,1,5,2], 3 )
+        self.policy.set( 7, [8,4,6,7,1,5,3], 0 )
+        # end fill dups
+
+        #from self.policy.set( 5, [8,4,7,6,2], 5 )
+        self.policy.set( 7, [8,4,7,6,2,5,0], 3 )
+        self.policy.set( 7, [8,4,7,6,2,5,1], 3 )
+        self.policy.set( 7, [8,4,7,6,2,5,3], 0 )
+        # end fill dups
+
+
+
+
+        # uu times more with different x starts
 
 
 
